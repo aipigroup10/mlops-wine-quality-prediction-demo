@@ -1,7 +1,8 @@
 name: model-training
+run-name: ${{ github.actor }} is running training model 🚀
 on: [push]
 jobs:
-  run:
+  Run-Training-Model:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
