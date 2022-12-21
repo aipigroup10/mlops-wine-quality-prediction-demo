@@ -15,6 +15,7 @@ jobs:
           pip install -r requirements.txt
           python train.py
 
+          cat requirements.txt >> report.md
           cat metrics.txt >> report.md
           echo "![](./feature_importance_v1.png)" >> report.md
           echo "![](./residuals.png)" >> report.md
