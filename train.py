@@ -33,6 +33,7 @@ test_score = regr.score(X_test, y_test) * 100
 
 # Write scores to a file
 with open("metrics.txt", 'w') as outfile:
+        outfile.write("Metric of Results")
         outfile.write("Training variance explained: %2.1f%%\n" % train_score)
         outfile.write("Test variance explained: %2.1f%%\n" % test_score)
 
