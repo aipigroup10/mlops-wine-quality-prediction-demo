@@ -1,4 +1,4 @@
-name: model-training
+name: Run-Model-Wine-Quality-Traing
 run-name: ${{ github.actor }} is running training model 🚀
 on: [push]
 jobs:
@@ -15,7 +15,8 @@ jobs:
           pip install -r requirements.txt
           python train.py
 
+          cat requirements.txt >> report.md
           cat metrics.txt >> report.md
-          echo "![](./feature_importance.png)" >> report.md
+          echo "![](./feature_importance_v1.png)" >> report.md
           echo "![](./residuals.png)" >> report.md
           cml comment create report.md
