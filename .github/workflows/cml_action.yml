@@ -1,4 +1,4 @@
-name: model-training
+name: Run-Model-Wine-Quality-Traing
 run-name: ${{ github.actor }} is running training model 🚀
 on: [push]
 jobs:
