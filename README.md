@@ -16,6 +16,6 @@ Modelling a Kaggle dataset of [red wine properties and quality ratings](https://
 Resources:
 * Code: https://github.com/andronovhopf/wine
 * GitLab support: https://github.com/iterative/cml/wiki
-* Video demo:
+* Video demo: https://www.youtube.com/watch?v=CbGCVZUOlP4
 
 
